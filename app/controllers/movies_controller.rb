@@ -10,14 +10,14 @@ class MoviesController < ApplicationController
   end
 
   def new
-    @movie = current_users.movies.build
+    @movie = current_user.movies.build
   end
 
   def edit
   end
 
   def create
-    @movie = current_users.movies.build(movie_params)
+    @movie = current_user.movies.build(movie_params)
 
     respond_to do |format|
       if @movie.save
