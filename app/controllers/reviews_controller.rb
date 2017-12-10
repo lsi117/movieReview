@@ -1,5 +1,7 @@
 class ReviewsController < ApplicationController
   before_action :set_review, only: [:show, :edit, :update, :destroy]
+  # Only a signed in user can write a review, thats what the line below does
+  before_action :authenticate_user!
 
   def index
     @reviews = Review.all
@@ -17,6 +19,8 @@ class ReviewsController < ApplicationController
 
   def create
     @review = Review.new(review_params)
+    # When a user writes a new review they will get an ID with it
+    @review.user_id = current_user.id
 
     respond_to do |format|
       if @review.save
