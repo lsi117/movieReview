@@ -17,3 +17,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body{
+  background-image: url(https://static.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg);
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+}
+
+small {
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+}
+
+a{
+ color: #ff5b0f;
+}
+
+a:hover{
+  color: #e24f0b;
+}
+
+#heart{
+  font-size: 15px;
+  margin: 2px;
+}
