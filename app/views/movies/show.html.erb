@@ -30,10 +30,28 @@
           </table>
         </div>
       </div>
+      <div class="column-md-7 column-offset-1">
+        <h1 class="review_title"><%= @movie.title %></h1>
+        <p><%= @movie.description %></p>
+
+        <!-- conditional, that will loop through all reviews if they exist -->
+        <% if @reviews.blank? %>
+          <h3>There aren't any reviews yet, why not be the first!</h3>
+          <%= link_to "Write A Review", new_movie_review_path(@movie), class: "btn btn-info" %>
+        <% else %>
+        <% @reviews.each do |review| %>
+          <div class="reviews">
+            <p><%= review.rating %></p>
+            <p><%= review.comment %></p>
+            <!--<%= link_to "Write Another Review?", new_movie_review_path(@movie), class: "btn btn-danger" %>-->
+          </div>
+          <% end %>
+          <% end %>
+      </div>
     </div>
   </div>
 </div>
 
 
-<%= link_to 'Edit', edit_movie_path(@movie) %> |
-<%= link_to 'Back', movies_path %>
+<%= link_to 'Edit Movie?', edit_movie_path(@movie), class: "btn btn-danger" %> |
+<%= link_to 'Back to All Movies', movies_path, class: "btn btn-danger" %>
