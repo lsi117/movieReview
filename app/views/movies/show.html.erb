@@ -1,13 +1,15 @@
 <div class="panel panel-default">
   <div class="panel-body">
     <div class="row">
-      <div class="column-md-4">
+      <div class="col-md-6 col-md-offset-1">
         <%= image_tag @movie.image.url(:medium) %>
+        <div class="column-md-7 col-md-offset-1">
         <h3>Movie Average Rating: </h3>
         <div class="star-rating" data-score= <%= @avg_review %> ></div>
         <em><%= "#{@reviews.length} reviews" %></em>
+        </div>
         <div class="table-responsive">
-          <table class="table">
+          <table class="table table-striped">
             <tbody>
               <tr>
                 <td><strong>Title:</strong></td>
@@ -33,10 +35,10 @@
           </table>
         </div>
       </div>
-      <div class="column-md-7 column-offset-1">
-        <h1 class="review_title"><%= @movie.title %></h1>
+      <div class="column-md-7 col-md-offset-4">
+        <h1 class="review_title text-capitalize"><%= @movie.title %></h1>
         <p><%= @movie.description %></p>
-
+        <h3>Reviews:</h3>
         <!-- conditional, that will loop through all reviews if they exist -->
         <% if @reviews.blank? %>
           <h3>There aren't any reviews yet, why not be the first!</h3>
