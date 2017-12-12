@@ -1,7 +1,7 @@
 # Movie Review
 
 
-This is an app that I made that will allow you to add a movie and then rate it !
+This is a fullstack rails app that I made that will allow you to add a movie and then rate it !
 Each user can leave a comment and rating.
 
 ---
