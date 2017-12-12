@@ -12,7 +12,10 @@ Signed in, show movie view:
 ![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.01.15%20PM.png)
 
 ---
+Signed in, index moview view:
+![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.00.18%20PM.png)
 
+---
 Sources:
 
 Tutorial Helpful Info:
