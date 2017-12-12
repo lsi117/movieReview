@@ -1,24 +1,28 @@
-# README
+# Movie Review
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is an app that I made that will allow you to add a movie and then rate it !
+Each user can leave a comment and rating.
 
-* Ruby version
+---
 
-* System dependencies
+Sources:
 
-* Configuration
+Tutorial Helpful Info:
+https://github.com/mackenziechild/movie_review
 
-* Database creation
 
-* Database initialization
+Devise
+https://github.com/plataformatec/devise
 
-* How to run the test suite
+Paper Clip
+https://github.com/thoughtbot/paperclip
 
-* Services (job queues, cache servers, search engines, etc.)
+Bootstrap-Sass
+https://github.com/twbs/bootstrap-sass
 
-* Deployment instructions
+Searchkick
+https://github.com/ankane/searchkick
 
-* ...
+
+
