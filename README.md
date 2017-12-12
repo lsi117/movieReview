@@ -4,6 +4,7 @@
 This is a fullstack rails app that I made that will allow you to add a movie and then rate it !
 Each user can leave a comment and rating.
 
+![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.01.40%20PM.png)
 ---
 
 Sources:
