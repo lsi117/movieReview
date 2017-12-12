@@ -34,5 +34,6 @@ https://github.com/twbs/bootstrap-sass
 Searchkick
 https://github.com/ankane/searchkick
 
-
+Bootstrap
+https://getbootstrap.com/docs/3.3/css/#images
 
