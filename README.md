@@ -18,9 +18,10 @@ Signed in, index movie view:
 ---
 Sources:
 
-Tutorial Helpful Info:
+Insipred by:
 https://github.com/mackenziechild/movie_review
 
+Resources:
 
 Devise
 https://github.com/plataformatec/devise
