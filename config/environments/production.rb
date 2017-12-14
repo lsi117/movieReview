@@ -31,7 +31,7 @@ Rails.application.configure do
   config.assets.compile = false
 
     #Needed for Devise
-  config.action_mailer.default_url_options = { host: 'https://movie-review-app-lsi.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'https://movie-review-app-lsi.herokuapp.com' }
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
