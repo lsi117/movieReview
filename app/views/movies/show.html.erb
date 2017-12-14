@@ -48,7 +48,9 @@
           <div class="reviews">
             <div class="star-rating" data-score = <%= review.rating %> ></div>
             <p><%= review.comment %></p>
-            <!--<%= link_to "Write Another Review?", new_movie_review_path(@movie), class: "btn btn-danger" %>-->
+            <%= link_to "Write Another Review?", new_movie_review_path(@movie), class: "btn btn-danger" %> |
+            <%= link_to 'Edit Movie?', edit_movie_path(@movie), class: "btn btn-danger" %> |
+            <%= link_to 'Back to All Movies', movies_path, class: "btn btn-info" %>
           </div>
           <% end %>
           <% end %>
@@ -58,8 +60,6 @@
 </div>
 
 
-<%= link_to 'Edit Movie?', edit_movie_path(@movie), class: "btn btn-danger" %> |
-<%= link_to 'Back to All Movies', movies_path, class: "btn btn-danger" %>
 
 <!-- calls the raty jquery file on the div named star-rating, you can also see the path to the images-->
 <script>
