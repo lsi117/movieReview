@@ -1,24 +1,39 @@
-# README
+# Movie Review
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is a fullstack rails app that I made that will allow you to add a movie and then rate it !
+Each user can leave a comment and rating.
 
-* Ruby version
+Not signed in view:
+![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.01.40%20PM.png)
 
-* System dependencies
+---
+Signed in, show movie view:
+![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.01.15%20PM.png)
 
-* Configuration
+---
+Signed in, index movie view:
+![alternateText](https://github.com/lsi117/movieReview/blob/master/Screen%20Shot%202017-12-11%20at%208.00.18%20PM.png)
 
-* Database creation
+---
 
-* Database initialization
+Insipred by:
+https://github.com/mackenziechild/movie_review
 
-* How to run the test suite
+Resources:
 
-* Services (job queues, cache servers, search engines, etc.)
+Devise
+https://github.com/plataformatec/devise
 
-* Deployment instructions
+Paper Clip
+https://github.com/thoughtbot/paperclip
 
-* ...
+Bootstrap-Sass
+https://github.com/twbs/bootstrap-sass
+
+Searchkick
+https://github.com/ankane/searchkick
+
+Bootstrap
+https://getbootstrap.com/docs/3.3/css/#images
+
