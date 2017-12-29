@@ -17,23 +17,4 @@ Signed in, index movie view:
 
 ---
 
-Insipred by:
-https://github.com/mackenziechild/movie_review
-
-Resources:
-
-Devise
-https://github.com/plataformatec/devise
-
-Paper Clip
-https://github.com/thoughtbot/paperclip
-
-Bootstrap-Sass
-https://github.com/twbs/bootstrap-sass
-
-Searchkick
-https://github.com/ankane/searchkick
-
-Bootstrap
-https://getbootstrap.com/docs/3.3/css/#images
 
