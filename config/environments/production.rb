@@ -29,7 +29,7 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true
 
     #Needed for Devise
   config.action_mailer.default_url_options = { host: 'https://movie-review-app-lsi.herokuapp.com' }
